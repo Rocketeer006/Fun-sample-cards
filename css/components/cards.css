@@ -8,9 +8,13 @@
   box-shadow: 5px 5px 16px rgb(0, 0, 0, .5);
   background-size: cover;
   margin: 15px auto;
-
+  transition: all .3s ease-in-out;
 }
 
+.card-category:hover {
+  transform: scale(1.05);
+  width: 100%;
+}
 .card-category h2 {
   color: white;
   text-shadow: 2px 2px 2px .4;
