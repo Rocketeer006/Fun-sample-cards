@@ -19,6 +19,10 @@
   text-shadow: 2px 2px 2px .4;
 }
 
+.card-category p{
+  text-align: center;
+}
+
 .card-product {
   display: flex;
   background-color: whitesmoke;
@@ -33,15 +37,23 @@
 }
 
 
-.card-product img {
+.card-product-pic {
   height: 120px;
   margin-right: 16px;
   border-radius: 8px 0 0 8px;
+  display: flex;
+}
+
+.card-product-pic-2 {
+  height: 120px;
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 60px 8px 8px 0px;
+  display: flex;
 }
 
 .card-product h2 {
   margin: 0;
-  text-align: center;
 }
 
 .card-product p {
