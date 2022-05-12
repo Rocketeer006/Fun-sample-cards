@@ -17,6 +17,11 @@
 .card-category h2 {
   color: white;
   text-shadow: 2px 2px 2px .4;
+  margin: 15px;
+}
+
+.card-category h3 {
+  text-align: center;
 }
 
 .card-category p{
